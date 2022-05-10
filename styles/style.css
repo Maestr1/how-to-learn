@@ -278,9 +278,8 @@
 .logo {
 }
 .logo_place_footer {
-}
-.logo_place_footer path {
-  fill: white;
+  width: 228px;
+  height: 32px;
 }
 .footer__author {
   margin: 0;

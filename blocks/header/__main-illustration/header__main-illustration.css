@@ -3,5 +3,7 @@
   z-index: 1;
   bottom: 0;
   right: 0;
-  max-width: 765px;
+  width: 765px;
+  height: 608px;
+  object-fit: cover;
 }

@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -79,16 +78,20 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li class="video__item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </li>
+          <li class="video__item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns">
@@ -151,12 +154,12 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир &mdash; школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сана Хала меняют процесс обучения миллионов студентов по всему
+          <blockquote class="khan__quote">Страсть и новаторство Сана Хала меняют процесс обучения миллионов студентов по всему
             миру. Книгу &laquo;Весь мир &mdash; школа&raquo; нужно прочитать все, кто занимается образованием &mdash;
             так учащиеся
-            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khan__quite-author">Джорж Лукас</p>
-          <p class="khan__quite-author-subline">Кинорежиссер, продюссер</p>
+            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+          <p class="khan__quote-author">Джорж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюссер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Обложка книги Весь мир - школа" class="khan__book-pic">
             <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
@@ -212,7 +215,7 @@
         <div class="kaufman__triangle rotation"></div>
       </section>
       <section class="resources">
-        <h2 class="section-title">Полезный ресурсы</h2>
+        <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
         <ul class="resources__logo-zone">
           <li><a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt="Логотип Arzamas"
